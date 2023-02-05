@@ -21,7 +21,15 @@ header {
   height: auto;
   display: flex;
 }
-.btnbtn {
-  display: flex;
-  padding: 0 30px;
+
+.nav-link {
+  color: white;
+}
+
+.register {
+  border: 1px solid #da2535;
+  background: #da2535;
+  border-radius: 2px;
+  padding: 8px;
+  color: white;
 }
