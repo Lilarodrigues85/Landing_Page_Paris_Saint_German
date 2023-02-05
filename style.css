@@ -8,8 +8,19 @@
   height: 100vh;
 }
 
+header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 23rem;
+}
+
 .logo img{
   width: 64px;
   height: auto;
-
+  margin-top: 40px;
+  margin-left: 346px;
 }
+
+
