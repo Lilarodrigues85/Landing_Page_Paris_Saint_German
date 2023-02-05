@@ -8,12 +8,13 @@
   height: 100vh;
 }
 
-header {
+.container {
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   gap: 23rem;
+  padding: 30px;
 }
 
 .logo img {
@@ -32,4 +33,10 @@ header {
   border-radius: 2px;
   padding: 8px;
   color: white;
+}
+
+footer {
+  color: rgb(117, 117, 117);
+  text-align: center;
+  font-size: 14px;
 }
