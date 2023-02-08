@@ -35,6 +35,11 @@
   margin-right: 10px;
 }
 
+.nav-item{
+  display: flex;
+  align-items: center;
+}
+
 .nav-link {
   color: white;
 }
