@@ -61,10 +61,12 @@
   height: 100vh;
 }
 .conteudo {
-  background-color: white;
-  color: black;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  border: 1px solid white;
 }
-
 footer {
   color: rgb(117, 117, 117);
   text-align: center;
