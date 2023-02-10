@@ -478,18 +478,19 @@ footer {
     margin-right: 20px;
   }
   .noticias {
-    margin-top: 80px;
-    margin-left: 100px;
-  }
-  .noticias h2 {
-    font-weight: 300;
-    font-size: 28px;
-    line-height: 30px;
+    display: grid;
+    justify-content: center;
+    margin-top: 20px;
+    margin: 20px;
+    padding: 20px;
+    font-size: 18px;
+    line-height: 20px;
   }
   .ultimas_noticias {
     display: grid;
+    justify-content: center;
     margin-top: 20px;
-    gap: 10px;
+    gap: 20px;
   }
   .messi {
     flex-direction: column;
@@ -550,6 +551,7 @@ footer {
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
     gap: 10px;
+    padding: 20px;
   }
 
   .linguasli {
