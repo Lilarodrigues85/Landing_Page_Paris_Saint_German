@@ -221,12 +221,10 @@
 .equipe1 {
   display: flex;
   gap: 178.5px;
-
   font-weight: 300;
   font-size: 14px;
   line-height: 20px;
   margin-top: 16px;
-
   color: rgba(11, 20, 33, 0.45);
 }
 
@@ -477,5 +475,41 @@ footer {
     margin-top: 20px;
     margin-left: 30px;
     margin-right: 20px;
+  }
+  .noticias {
+    margin-top: 80px;
+    margin-left: 100px;
+  }
+  .noticias h2 {
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 30px;
+  }
+  .ultimas_noticias {
+    display: grid;
+    margin-top: 20px;
+    gap: 10px;
+  }
+  .messi {
+    flex-direction: column;
+    width: 200px;
+  }
+
+  .messi h4 {
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 20px;
+    color: red;
+  }
+
+  .messip {
+    font-weight: 100px;
+    font-size: 18px;
+    line-height: 20px;
+    margin-top: 4px;
+    padding: 10px;
+  }
+  .equipe1 {
+    display: none;
   }
 }
