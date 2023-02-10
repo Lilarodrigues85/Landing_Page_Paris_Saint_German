@@ -489,19 +489,12 @@ footer {
     display: grid;
     margin-top: 20px;
     gap: 10px;
+    margin-left: 200px;
   }
   .messi {
     flex-direction: column;
     width: 200px;
   }
-
-  .messi h4 {
-    font-weight: 200;
-    font-size: 14px;
-    line-height: 20px;
-    color: red;
-  }
-
   .messip {
     font-weight: 100px;
     font-size: 18px;
@@ -510,6 +503,22 @@ footer {
     padding: 10px;
   }
   .equipe1 {
+    display: none;
+  }
+  .mbappe1 {
+    flex-direction: column;
+    width: 200px;
+  }
+  .mbappe1 h4 {
+    display: none;
+  }
+  .mbappep1 {
+    font-weight: 100px;
+    font-size: 18px;
+    line-height: 20px;
+    margin-top: 4px;
+  }
+  .equipe2 {
     display: none;
   }
 }
